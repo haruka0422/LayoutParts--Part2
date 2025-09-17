@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+.speech-bubble {
+  max-width: 500px;
+  margin-inline: auto;
+  padding: 20px;
+  font-size: 16px;
+  line-height: 1;
+  background-color: #fad296;
+  border: 5px solid #8f5a0a;
+  border-radius: 30px;
+  position: relative;
+}
+
+/* 三角形（外側と内側） */
+.speech-bubble::before,
+.speech-bubble::after {
+  content: "";
+  position: absolute;
+  left: 30px;
+  border: 20px solid transparent;
+}
+
+.speech-bubble::before {
+  border-top: 20px solid;
+  border-top-color: #8f5a0a;
+  bottom: -45px;
+}
+
+.speech-bubble::after {
+  border-top: 20px solid #fad296;
+  bottom: -38px;
+}

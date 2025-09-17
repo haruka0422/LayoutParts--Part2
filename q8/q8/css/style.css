@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+/* 高さを確保 */
+.bg-sample {
+  min-height: 500px; 
+  background-position: center;
+}
+
+/* Q8-1 背景画像だけ */
+.bg-basic {
+  background-image: url("../../image/coffee-background.jpg");
+}
+
+/* Q8-2 繰り返し解除 */
+.bg-no-repeat {
+  background-image: url("../../image/coffee-background.jpg");
+  background-repeat: no-repeat;
+}
+
+/* Q8-3 中央寄せ & 全幅 */
+.bg-cover {
+  background-image: url("../../image/coffee-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Q8-4 中央寄せ & 全体を収める */
+.bg-contain {
+  background-image: url("../../image/coffee-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
