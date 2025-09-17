@@ -4,13 +4,13 @@
 .btn-group {
   display: flex;
   justify-content: center;
-  gap: 30px; /* margin-leftの代わりにgapを利用 */
+  gap: 30px;
 }
 
 /* 共通ボタン */
 .button {
   display: inline-block;
-  padding-inline: 15px; /* padding: 0 15px の代わり */
+  padding-inline: 15px;
   line-height: 50px;
   text-align: center;
   cursor: pointer;
